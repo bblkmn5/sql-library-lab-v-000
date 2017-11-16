@@ -6,7 +6,7 @@ CREATE TABLE characters (
 
 CREATE TABLE series (
   id INTEGER PRIMARY KEY,
-  title INTEGER, author_id INTEGER, sub_genre_id INTEGER
+  title INTEGER, author_id INTEGER, subgenre_id INTEGER
 );
 
 CREATE TABLE sub_genre (
